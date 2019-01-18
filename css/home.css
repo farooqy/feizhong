@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+
+.stream-slide {
+  display:none;
+}
+.p-about {
+  font-family: 'Merriweather', serif;
+}
+.checkText {
+  position:relative;
+  top:15px;
+  left:-15px;
+}
+.right-logo {
+  height:150px;
+}
+.man-info {
+  background-color:  white ;
+  height:inherit;
+  color:black;
+  border:thin solid gray;
+}
+.v-left-bar {
+  border:thin solid blue;
+}
+ul {
+  list-style-type:none;
+}
+.vname {
+  background-color: #277a70;
+  color:white;
+  padding-left:0px;
+  cursor:pointer;
+  margin-bottom:2px;
+}
+.issuename {
+  background-color: #75132d ;
+  color:white;
+  cursor:pointer;
+  margin-bottom:2px;
+}
+.paper_title {
+  cursor:pointer;
+}
+.right-bar-p {
+  border:thin solid gray;
+}
+.bar-latest {
+  font-size:25px;
+  background-color:#00B991 ;
+  color:white;
+  line-height:30px;
+  padding-left:10px;
+}
+.Error_Holder{
+  background-color:red;
+  color:white;
+}
+.sup-header {
+  background-color: #399547;
+  color:white;
+  font-family: 'Merriweather', serif;
+  height:30px;
+  line-height:30px;
+  font-size:20px;
+}
+.sup-menu {
+  border-right:thin solid white;
+  text-align:center;
+}
+.sup-menu:hover {
+  background-color:black;
+  cursor:pointer;
+}
+#non-sizeable {
+  resize:none;
+}
+.sub-email {
+  background:transparent;
+  border:thin solid gray;
+  border-radius:5px;
+}
+.btn-sub {
+  background:transparent;
+  height:28px;
+  color:green;
+  font:bold;
+  border:thin solid green;
+  margin-top:-1px;
+  height:25px;
+  border-radius:5px;
+}
+.title-preview {
+  color:black;
+  text-align:left;
+}
+.btn-read {
+  text-align:center;
+  background-color:#FEBD00;
+  color:white;
+}
+.submit-arrow {
+  background-color:#00B991;
+  color:white;
+  height:40px;
+  line-height:40px;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+}
+.logreg-arrow {
+  background-color:#00B991;
+  color:white;
+  height:40px;
+  line-height:40px;
+}
+.btn-home-sign {
+  background-color:#00B991;
+  width:100%;
+}
+.home-input {
+  height:40px;
+  line-height:40px;
+  background-color:white;
+  color:black;
+  width:100%;
+  border:none;
+}
+.shadow {
+  background-color: #c1f1c7 ;
+  box-shadow:0.5px 0.5px;
+  color:gray;
+}
+.contact-us{
+  background-color:#00B991;
+  width:100%;
+  height:40px;
+  line-height:40px;
+  color:white;
+  margin-left:5px;
+}
+.font-green {
+  color: #158221 ;
+}
+.open-access {
+  background-image: url("../photos/slideshow/open access.png");
+  height: 100px;
+  background-size: 100% 100%;
+  background-repeat: none;
+}
+.j_figure {
+  border:thin solid gray;
+  margin-top:10px;
+}
+.yellow-me {
+  background-color: #00B991;
+}
+.editor-table {
+  width: 95%;
+  border: none;
+}
+.editor-table thead th {
+  border: none;
+}
+.editor-table > thead > tr >th:nth-child(3){
+  width: 300px;
+}
+.editor-table >tbody >tr, .editor-table >thead >tr {
+  border: none;
+  height: 40px;
+}
+.editor-table >tbody >tr >td:nth-child(1){
+  border:none;
+  width: 20px;
+}
+.editor-table > tbody > tr >td{
+  border:none;
+  width: 170px;
+}
+.editor-table > tbody > tr:nth-child(odd){
+  background-color:  #abebc6 ;
+}
+
+.api-text {
+  resize: none;
+  background-color:lightblue;
+  color:black;
+  width: 400px;
+}
+.loading-page
+  background: #0d0d0d
+  width: 100vw
+  height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+  
+  .counter
+    text-align: center
+    
+    p
+      font-size: 40px
+      font-weight: 100
+      color: #f60d54 
+      
+    h1 
+      color: white
+      font-size: 60px
+      margin-top: -10px
+    
+    hr
+      background: #f60d54 
+      border: none
+      height: 1px
+      
+  .counter
+    position: relative
+    width: 200px
+    h1.abs
+      position: absolute
+      top: 0
+      width: 100%
+    .color
+      width: 0px
+      overflow: hidden
+      color: #f60d54 
+

@@ -1,0 +1,12 @@
+@media screen and (min-width: 1200px) {
+  .logoText {
+    left:-200px;
+    top:30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .logoText {
+    top:0px;
+  }
+}
