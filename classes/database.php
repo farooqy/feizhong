@@ -3,8 +3,8 @@
 //Connecting to the database
 class connection {
   private $servername = "custsql-ipg60.eigbox.net";
-  private $dsn ="mysql:host=localhost;dbname=ganacsig_feizhong";
-  private $username = "ganacsig_noor";
+  private $dsn ="mysql:host=localhost;dbname=soscente_feizhong";
+  private $username = "soscente_noor";
   private $password ="no1@all01";
   private $conn;
   protected $error ="";
